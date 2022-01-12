@@ -1,0 +1,27 @@
+{
+  "name": "cypress-automatizacion-pruebas",
+  "version": "1.0.0",
+  "description": "Curso Cypress (udemy)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanbs9/cypress-automatizacion-pruebas.git"
+  },
+  "author": "Jonathan Brull Schroeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanbs9/cypress-automatizacion-pruebas/issues"
+  },
+  "homepage": "https://github.com/jonathanbs9/cypress-automatizacion-pruebas#readme",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0",
+    "cypress": "^9.2.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^1.6.2",
+    "lodash": "^4.17.21"
+  }
+}
