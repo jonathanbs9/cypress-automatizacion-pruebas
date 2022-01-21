@@ -14,7 +14,7 @@ pipeline{
                         git url: 'https://github.com/jonathanbs9/cypress-automatizacion-pruebas.git'
                         bat 'npm install' 
                         bat 'npm update'
-                        bat 'npx cypress run --spec "cypress/integration/seccion-7/fixture.spec.js" --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'
+                        bat 'npx cypress run --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'
                     }
                 }
 
@@ -26,7 +26,7 @@ pipeline{
                         git url: 'https://github.com/jonathanbs9/cypress-automatizacion-pruebas.git'
                         bat 'npm install' 
                         bat 'npm update'
-                        bat 'npx cypress run --spec "cypress/integration/seccion-7/fixture.spec.js" --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'                        
+                        bat 'npx cypress run --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'                        
                     }
                 }
 
@@ -38,7 +38,7 @@ pipeline{
                         git url: 'https://github.com/jonathanbs9/cypress-automatizacion-pruebas.git'
                         bat 'npm install' 
                         bat 'npm update'
-                        bat 'npx cypress run --spec "cypress/integration/seccion-7/fixture.spec.js" --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'
+                        bat 'npx cypress --record --key 79a7977f-3e41-4ea3-a264-9411948685db --parallel'
                     }
                 }
             }    
