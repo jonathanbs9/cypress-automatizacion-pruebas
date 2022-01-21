@@ -4,6 +4,5 @@
   "chromeWebSecurity": false,
   "pageLoadTimeout": 15000,
   "defaultCommandTimeout": 10000,
-  "testFiles": "**/*.feature",
   "projectId": "cgpost"
 }
