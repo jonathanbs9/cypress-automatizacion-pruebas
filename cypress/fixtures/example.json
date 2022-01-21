@@ -1,5 +1,38 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "name": "Jonathan From JsonFile",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  },
+  {
+    "name": "Rodrigo From JsonFile",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  },
+  {
+    "name": "Ezequiel From JsonFile",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  },
+  {
+    "name": "Valentin From JsonFile",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  },
+  {
+    "name": "Ethan From JsonFile",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  },
+  {
+    "name": "Bobina ",
+    "email": "test.automation@cypress.io",
+    "current_address": "123 Fake St.",
+    "permanent_address": "APT 4"
+  }
+]

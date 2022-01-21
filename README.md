@@ -41,3 +41,40 @@ Once installed, require('cypress-xpath') on file
 ## Run with console a determined folder (all files from folder)
 
 `npx cypress run --spec "cypress\integration\seccion-2\*"`
+
+## Run with command 'run' and will generate a videos of the test runned in folder 'videos'
+
+`npx cypress run --spec "cypress/integration/seccion-6/page-object-1.spec.js" `
+
+## Install Cucumber
+
+`npm install --save-dev cypress-cucumber-preprocessor`
+
+## Config Cucumber
+
+cypress/plugins/index.js
+
+```
+const cucumber = require('cypress-cucumber-preprocessor').default
+
+module.exports = (on, config) => {`
+    on('file:preprocessor', cucumber())
+}
+
+```
+
+On cypress.json
+
+```
+{
+  "testFiles": "**/*.feature"
+}
+```
+
+On package.json
+
+```
+"cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+}
+```

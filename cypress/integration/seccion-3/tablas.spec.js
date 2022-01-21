@@ -13,9 +13,16 @@ describe("Seccion 3 - Tablas", () => {
         cy.get("[type='button']").eq(5).should("contain", "Danger")
     })
 
-    it.only("Test Case 01 ", () => { 
+    it("Test Case 01 ", () => { 
         cy.visit("https://web-sites.lbpsb.qc.ca/demo2/Parents/Shortcodes-2/buttons")
         cy.get("[type='button']").filter(".btn-warning").should("contain", "Warning").first().click()
+    
+    })
+
+    it.only("Test Case 01  - Intranet", () => { 
+        cy.visit("https://intranet-frontend-eight.vercel.app/")
+        let title = cy.title().should("eq", "")
+        cy.log(title)
     
     })
 
